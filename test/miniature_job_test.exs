@@ -6,6 +6,4 @@ defmodule MiniatureJobTest do
   test "greets the world" do
     assert MiniatureJob.hello() == :world
   end
-
-
 end
