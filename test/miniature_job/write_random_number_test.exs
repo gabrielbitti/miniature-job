@@ -1,7 +1,7 @@
 defmodule MiniatureJobTest.WriteRandomNumberTest do
   use ExUnit.Case
 
-  test "2 escritas no arquivo geram numeros diferentes" do
+  test "random numbers are diff" do
     MiniatureJobTest.WriteRandomNumberTest.escreve()
     first_content = File.read!(Path.join([
       :code.priv_dir(:miniature_job),
