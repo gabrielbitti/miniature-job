@@ -22,7 +22,8 @@ defmodule MiniatureJob.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:quantum, "~> 3.4"}
+      {:quantum, "~> 3.4"},
+      {:mock, "~> 0.3.8"}
     ]
   end
 end
