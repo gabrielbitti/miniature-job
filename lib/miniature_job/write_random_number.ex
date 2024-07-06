@@ -1,7 +1,7 @@
 defmodule MiniatureJob.WriteRandomNumber do
   def write do
     file_path = Path.join([
-      :code.priv_dir(:elixir_teste),
+      :code.priv_dir(:miniature_job),
       'file.txt'
     ])
 

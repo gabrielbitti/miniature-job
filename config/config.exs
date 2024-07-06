@@ -1,4 +1,4 @@
 use Mix.Config
 
-config :elixir_teste, MiniatureJob.Scheduler,
-       jobs: [{"* * * * *", fn -> GenServer.cast(:servidor_aleatorio, :escreve) end}]
+config :miniature_job, MiniatureJob.Scheduler,
+       jobs: [{"* * * * *", fn -> GenServer.cast(:aleatory_server, :write) end}]
